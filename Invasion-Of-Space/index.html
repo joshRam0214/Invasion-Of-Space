@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <title>Invasion Of Space</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="game.js"></script>
+    <body>
+        <h3>Time: <span id="time">0</span> seconds</h3>
+        <h3>Game Status: <span id="gameOver">Playing</span></h3>
+
+        <div class="board" id="board">
+            <script>
+                var x = 0
+                while (x < 324){
+                    var box = document.createElement("div")
+                    var element = document.getElementById("board")
+                    element.append(box)
+                    x++
+                }
+            </script>
+        </div>
+    </body>
+</html>

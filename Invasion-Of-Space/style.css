@@ -1,0 +1,39 @@
+.board{
+    display: flex;
+    margin: auto;
+    background-image: url("Images/img2.jpg");
+    /* background-color: black; */
+    flex-wrap: wrap;
+    border: solid 10px;
+    width: 650px;
+    height: 650px;
+}
+.board div{
+    width: 35px;
+    height: 35px;
+    /* border: 1px solid black; */
+}
+.invader{
+    background-image: url("Images/alien2.png");
+    background-repeat: no-repeat;
+    
+    /* border-radius: 18px; */
+}
+.shooter{
+    /* background-color: black; */
+    background-image: url("Images/spaceShip2.png");
+    background-repeat: no-repeat;
+}
+.boom{
+    background-image: url("Images/boom2.png");
+}
+
+.laser{
+    /* background-color: green; */
+    background-image: url("Images/laser1.png");
+}
+
+.blast{
+    /* background-color: green; */
+    background-image: url("Images/laser1.png");
+}
